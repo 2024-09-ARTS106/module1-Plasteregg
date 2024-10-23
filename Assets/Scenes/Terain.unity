@@ -272,7 +272,7 @@ MonoBehaviour:
   m_RendererIndex: -1
   m_VolumeLayerMask:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 4294967295
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
   m_RenderPostProcessing: 0
@@ -619,7 +619,7 @@ PrefabInstance:
     - target: {fileID: 6559362985659250037, guid: 260ff1508afea5241b6511d8fbe92201,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.57699966
+      value: -11.403
       objectReference: {fileID: 0}
     - target: {fileID: 6559362985659250037, guid: 260ff1508afea5241b6511d8fbe92201,
         type: 3}
@@ -879,6 +879,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -11.18
+      objectReference: {fileID: 0}
     - target: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_BackGroundColor.a
       value: 1
@@ -941,7 +945,7 @@ PrefabInstance:
     - target: {fileID: 7107557499579693769, guid: 25671d77d13295f41a2396dc108890df,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.7439995
+      value: -12.723999
       objectReference: {fileID: 0}
     - target: {fileID: 7107557499579693769, guid: 25671d77d13295f41a2396dc108890df,
         type: 3}
@@ -1058,6 +1062,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17d48e5b32508754ea6dce2f71ecb9ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  prefab: {fileID: 0}
+  shootpoint: {fileID: 0}
 --- !u!1001 &1609762369
 PrefabInstance:
   m_ObjectHideFlags: 0
