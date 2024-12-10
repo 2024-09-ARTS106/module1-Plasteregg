@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu_Scene.unity
     guid: 26a16a3617fca46489f4fa95976c5630
+  - enabled: 1
+    path: Assets/Scenes/SnapScene.unity
+    guid: 061347f70d038ef4ca770e76082d8e57
   - enabled: 0
     path: Assets/Scenes/Scripting_demo.unity
     guid: 99c9720ab356a0642a771bea13969a05
